@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pietrodebianchi/Desktop/github/Projects_ASP_NET/Pokedex_MongoDB/WebPokedex-Back/WebPokedex.csproj": {}
+  },
+  "projects": {
+    "/Users/pietrodebianchi/Desktop/github/Projects_ASP_NET/Pokedex_MongoDB/WebPokedex-Back/WebPokedex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pietrodebianchi/Desktop/github/Projects_ASP_NET/Pokedex_MongoDB/WebPokedex-Back/WebPokedex.csproj",
+        "projectName": "WebPokedex",
+        "projectPath": "/Users/pietrodebianchi/Desktop/github/Projects_ASP_NET/Pokedex_MongoDB/WebPokedex-Back/WebPokedex.csproj",
+        "packagesPath": "/Users/pietrodebianchi/.nuget/packages/",
+        "outputPath": "/Users/pietrodebianchi/Desktop/github/Projects_ASP_NET/Pokedex_MongoDB/WebPokedex-Back/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pietrodebianchi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDb.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
